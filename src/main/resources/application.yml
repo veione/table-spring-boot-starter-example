@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: table-spring-boot-starter-example
+com:
+  think:
+    table:
+      excel:
+        header-row: 3
+      type: csv
+      path: table
+      enabled: true
+      csv:
+        skip-lines: 0
+        line-separator: "|"
